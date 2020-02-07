@@ -1,0 +1,24 @@
+@font-face{
+  font-family: 'Raleway';
+  src: url(../../fonts/Raleway.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+/*COLORS:*/
+
+$darkBlack: #131313;
+$lightblack:#08080c;
+$ladyRed: #ff0035;
+$white: #ffffff;
+$grayText: #a4a4a4;
+$grayArrow: #a3a3a3;
+

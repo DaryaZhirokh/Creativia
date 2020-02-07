@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(../../fonts/Raleway.ttf);
+  font-weight: normal;
+  font-style: normal; }
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  overflow-x: hidden !important;
+  width: 100%; }
+
+/*COLORS:*/
+header {
+  background-image: url(../../images/redlady.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (max-width: 1024px) {
+    .header-info {
+      margin-left: 200px; } }
+  @media (max-width: 760px) {
+    .header-info {
+      margin-left: 5%;
+      margin-right: 5%; } }
+
+.logo {
+  min-width: 250px;
+  height: 40px;
+  background-color: #131313;
+  border-left: 3px solid #ff0035;
+  border-right: 3px solid #ff0035;
+  margin-left: 5%;
+  position: relative; }
+
+.trapezium {
+  width: 250px;
+  position: relative;
+  border-width: 60px 65px 0;
+  border-style: solid;
+  border-color: #131313 transparent;
+  margin-left: 5%;
+  position: absolute;
+  top: 40px;
+  right: -3px; }
+  @media (max-width: 1024px) {
+    .trapezium {
+      position: absolute;
+      left: -5%; } }
+
+.trapezium:before {
+  content: .trapezium:before quot;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #ff0035; }
+
+.upperMenuNav {
+  display: flex;
+  width: 100%;
+  min-height: 70px;
+  padding: 0;
+  background-color: #08080c; }
+  @media (max-width: 1024px) {
+    .upperMenuNav {
+      display: block;
+      background-color: transparent; } }
+
+.upperMenu {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%; }
+  @media (max-width: 1330px) {
+    .upperMenu {
+      justify-content: space-evenly;
+      margin-left: 1%; } }
+  @media (max-width: 1024px) {
+    .upperMenu {
+      /* display: none; */
+      display: block;
+      margin-top: 175px;
+      margin-left: 5%;
+      position: absolute; } }
+  @media (max-width: 700px) {
+    .upperMenu {
+      position: unset; } }
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  right: 1%;
+  top: 1%; }
+  .hamburger img {
+    width: 40px;
+    height: 40px; }
+  @media (min-width: 1024px) {
+    .hamburger {
+      display: none; } }
+  @media (max-width: 1024px) {
+    .hamburger {
+      left: 5%;
+      top: 15%; } }
+
+.upper-menu-item {
+  margin-right: 40px;
+  margin-left: 40px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  flex-wrap: nowrap;
+  justify-content: center; }
+  @media (max-width: 1330px) {
+    .upper-menu-item {
+      width: auto;
+      margin: 0; } }
+  @media (min-width: 1124px) {
+    .upper-menu-item {
+      margin-right: 10px;
+      margin-left: 10px;
+      width: auto; } }
+  @media (max-width: 1024px) {
+    .upper-menu-item {
+      display: block;
+      width: 100px;
+      height: 35px; } }
+  .upper-menu-item:hover {
+    border-top: 3px solid #ff0035;
+    border-bottom: 3px solid #ff0035; }
+
+.menu-ref {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #a4a4a4;
+  font-family: "Raleway";
+  white-space: nowrap;
+  text-decoration: none; }
+  .menu-ref:hover {
+    text-decoration: none;
+    color: #ffffff; }
+
+.logo-text {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: 60px; }
+  .logo-text:hover {
+    color: #ffffff;
+    text-decoration: none; }
+
+.header-arrows {
+  height: 30px;
+  width: 20px;
+  margin: 30px; }
+  @media (max-width: 1024px) {
+    .header-arrows {
+      margin: 10px; } }
+
+.quest {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 190px; }
+  .quest span {
+    color: #ff0035; }
+  @media (max-width: 1024px) {
+    .quest {
+      margin-top: 140px; } }
+  @media (max-width: 700px) {
+    .quest {
+      margin-top: 5%; } }
+
+.quest-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px; }
+  @media (max-width: 760px) {
+    .quest-text {
+      margin-left: 10px;
+      margin-right: 10px; } }
+  @media (max-width: 760px) {
+    .quest-text {
+      margin-bottom: 10%;
+      width: 250px; } }
+
+.creativia-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.creativia-info-buttons {
+  display: inline-flex;
+  justify-content: center; }
+  @media (max-width: 760px) {
+    .creativia-info-buttons {
+      margin-bottom: 10%;
+      display: flex;
+      flex-wrap: wrap; } }
+  .creativia-info-buttons button {
+    width: 170px;
+    height: 50px;
+    background-color: #131313;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 215px;
+    margin-left: 30px; }
+    @media (max-width: 760px) {
+      .creativia-info-buttons button {
+        margin-bottom: 10%; } }
+    .creativia-info-buttons button:hover {
+      background-color: #ff0035; }
+    .creativia-info-buttons button:focus {
+      border: 1px solid transparent; }
+
+/*# sourceMappingURL=main.css.map */
