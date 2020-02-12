@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Raleway';
   src: url(../../fonts/Raleway.ttf);
@@ -11,5 +12,6 @@
   width: 100%; }
 
 /*COLORS:*/
+/*МИКСИНЫ:*/
 
 /*# sourceMappingURL=vars.css.map */

@@ -22,3 +22,26 @@ $white: #ffffff;
 $grayText: #a4a4a4;
 $grayArrow: #a3a3a3;
 
+/*МИКСИНЫ:*/
+
+@mixin head-title {
+  font-size: 30px;
+  color: #262626;
+  font-family: "Raleway";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+@mixin head-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #505050;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
