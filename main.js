@@ -38,24 +38,16 @@ $(document).ready(function(){
       else console.log('Noop')
     });
 
-
-    // $('.strength-item').click(function(){
-    //   $(this).find(".inner-hexagon-tick").toggleClass(".inner-hexagon-tick-toggled" );
-    // });
-
-    // $('.strength-item').click(function(){
-    //   $(this).find(".inner-hexagon-ipad").toggleClass(".inner-hexagon-ipad-toggled" );
-    // });
-
-    // $('.strength-item').click(function(){
-    //   $(this).find(".inner-hexagon-fire").toggleClass(".inner-hexagon-fire-toggled" );
-    // });
-
-    // $('.strength-item').click(function(){
-    //   $(this).find(".inner-hexagon-heart").toggleClass(".inner-hexagon-heart-toggled" );
-    // });
-
-
+   $('.portfolio-picture').click(function(){
+      $(this).find(".twin-yellow").toggleClass( "yellow-toggled" );
+      $(this).find(".twin-blue").toggleClass( "blue-toggled" );
+      $(this).find(".twin-pink").toggleClass( "pink-toggled" );
+      $(this).find(".twin-white").toggleClass( "white-toggled" );
+      $(this).find(".twin-green").toggleClass( "green-toggled" );
+      $(this).find(".twin-gray").toggleClass( "gray-toggled" );
+      $(this).find(".twin-azure").toggleClass( "azure-toggled" );
+      $(this).find(".twin-orange").toggleClass( "orange-toggled" );
+   });
 
 
 });
