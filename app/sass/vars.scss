@@ -28,7 +28,7 @@ $grayArrow: #a3a3a3;
 
 /*МИКСИНЫ:*/
 
-@mixin head-title {
+@mixin headtitle {
   font-size: 30px;
   color: #262626;
   font-family: "Raleway";
@@ -40,7 +40,7 @@ $grayArrow: #a3a3a3;
   margin-left: 5%;
 }
 
-@mixin head-text {
+@mixin headtext {
   font-size: 16px;
   line-height: 22px;
   color: #505050;

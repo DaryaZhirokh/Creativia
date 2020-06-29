@@ -1,23 +1,20 @@
 /*
 Error: Undefined mixin 'headtitle'.
-        on line 11 of app/sass/infopage.scss, in `headtitle'
-        from line 11 of app/sass/infopage.scss
+        on line 3 of app/sass/products-features-page.scss, in `headtitle'
+        from line 3 of app/sass/products-features-page.scss
 
-6:     align-items: center;
-7: }
-8: 
-9: .head-row {
-10: 	h2 {
-11: 		@include headtitle;
-12: 
-13: 		span {
-14: 			color: $ladyRed;
-15: 		}
-16: 	}
+1: .features-header {
+2:   h3 {
+3:     @include headtitle;
+4: 
+5:     span {
+6:       color: $ladyRed;
+7:     }
+8:   }
 
 Backtrace:
-app/sass/infopage.scss:11:in `headtitle'
-app/sass/infopage.scss:11
+app/sass/products-features-page.scss:3:in `headtitle'
+app/sass/products-features-page.scss:3
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
@@ -84,4 +81,4 @@ app/sass/infopage.scss:11
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'headtitle'.\A         on line 11 of app/sass/infopage.scss, in `headtitle'\A         from line 11 of app/sass/infopage.scss\A \A 6:     align-items: center;\A 7: }\A 8: \A 9: .head-row {\A 10: 	h2 {\A 11: 		@include headtitle;\A 12: \A 13: 		span {\A 14: 			color: $ladyRed;\A 15: 		}\A 16: 	}"; }
+  content: "Error: Undefined mixin 'headtitle'.\A         on line 3 of app/sass/products-features-page.scss, in `headtitle'\A         from line 3 of app/sass/products-features-page.scss\A \A 1: .features-header {\A 2:   h3 {\A 3:     @include headtitle;\A 4: \A 5:     span {\A 6:       color: $ladyRed;\A 7:     }\A 8:   }"; }

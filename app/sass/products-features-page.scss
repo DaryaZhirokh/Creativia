@@ -1,0 +1,158 @@
+.features-header {
+  h3 {
+    @include headtitle;
+
+    span {
+      color: $ladyRed;
+    }
+  }
+
+  p {
+    @include headtext;
+
+    span {
+      color: $ladyRed;
+    }
+  }
+}
+
+.feature-block {
+  width: 370px;
+  height: 55px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  z-index: 2;
+  border: 1px solid #e7e7e7;
+  position: relative;
+
+  &:hover {
+    background-color: #ff0036;
+    border: 1px solid #ff0036;
+  }
+}
+
+.feature-block-right {
+  justify-content: end;
+
+  p {
+    margin-left: 20px;
+  }
+}
+
+.features-list {
+  margin-top: 75px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.features-picture {
+  position: relative;
+  height: 565px;
+  width: 465px;
+}
+
+.ladyXexagon {
+  width: 470px;
+  height: 205px;
+  position: absolute;
+  bottom: 0;
+}
+
+.ladyini {
+  height: 380px;
+  width: 375px;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+
+.tri {
+  width: 55px;
+  height: 90px;
+  position: absolute;
+}
+
+.right-tri {
+  right: 0px;
+  top: 272px;
+}
+
+.left-tri {
+  top: 272px;
+}
+
+.feature_hexagon {
+  background-image: url(../../images/features_hexagon.svg);
+  width: 37px;
+  height: 32px;
+  margin-left: 17px;
+  margin-right: 20px;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+}
+
+.feature_hexagon-toggled {
+  background-image: url(../../images/features_hexagon-white.svg);
+}
+
+.feature-block_title {
+  font-size: 20px;
+  color: black;
+  font-family: "Raleway";
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.title-toggled {
+  color: #FFF;
+}
+
+.features-tick {
+  background-image: url(../../images/features-blacktick.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 10px;
+  z-index: 3;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.tick-toggled {
+  background-image: url(../../images/features_redtick.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 10px;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media (max-width: 1210px) {
+
+  .features-picture {
+    display: none;
+  }
+
+  .features-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+  }
+}

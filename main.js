@@ -49,5 +49,13 @@ $(document).ready(function(){
       $(this).find(".twin-orange").toggleClass( "orange-toggled" );
    });
 
+//<!--PRODUCTS-FEATURES-PAGE -->
+
+  $(".feature-block").hover(function(){
+    $(this).find(".feature_hexagon").toggleClass("feature_hexagon-toggled");
+    $(this).find(".features-tick").toggleClass("tick-toggled");
+    $(this).find(".feature-block_title ").toggleClass("title-toggled");
+  });
+
 
 });

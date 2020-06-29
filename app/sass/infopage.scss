@@ -8,7 +8,7 @@
 
 .head-row {
 	h2 {
-		@include head-title;
+		@include headtitle;
 
 		span {
 			color: $ladyRed;
@@ -16,7 +16,7 @@
 	}
 
 	p {
-		@include head-text;
+		@include headtext;
 
 		span {
 			color: $ladyRed;
