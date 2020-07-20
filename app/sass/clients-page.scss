@@ -1,0 +1,163 @@
+.clients {
+  height: 650px;
+  background-image: url(../../images/clients_background.png);
+  @include back;
+}
+
+.features-header {
+  margin-top: 100px;
+}
+
+.clients_header {
+  padding-top: 100px;
+}
+
+.clients_title {
+    @include headtitle;
+    color: #888887;
+
+    span {
+      color: $ladyRed;
+    }
+}
+
+.clients_text {
+  @include headtext;
+  color: #888887;
+
+  span {
+      color: $ladyRed;
+  }
+}
+
+.clients_info {
+  @include alignment;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -28px;
+}
+
+.clients_info-saying {
+  width: 50%;
+  margin-right: 46px;
+  @include alignment;
+  flex-direction: column;
+
+  h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 66px;
+    height: 57px;
+    margin-bottom: 18px;
+  }
+}
+
+.clients_info-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #a4a4a4;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-bottom: 47px;
+    margin-top: 0;
+  }
+
+
+.clients_info-names {
+  font-size: 16px;
+  color: #ff0036;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.clients_points-container {
+  @include alignment;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  background-color: #FFF;
+  margin: 2px;
+}
+
+.point-toggled {
+  background-color: #ff0036;
+}
+
+.clients_squares {
+  @include alignment;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.clients_squares-row {
+  @include alignment;
+}
+
+.square {
+  width: 270px;
+  height: 116px;
+  @include alignment;
+  background-color: #f3f3f3;
+  box-shadow: inset 0 0 68px #797979;
+  margin: 20px 15px 20px 15px;
+
+  p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #292626;
+    font-family: "MgOpenModata.ttf";
+    margin: 0;
+  }
+}
+
+.clients-window {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 1%;
+  background-color: #333233;
+  margin-right: 8px;
+}
+.clients_window-inner {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.graphicriver {
+  width: 37px;
+  height: 42px;
+  margin-right: 1px;
+}
+
+.photodune {
+  width: 32px;
+  height: 34px;
+}
+
+.videohiver {
+  width: 31px;
+  height: 32px;
+}
+
+.codecanyon {
+  width: 31px;
+  height: 27px;
+}
+
+.clients_row {
+  padding-top: 0;
+}

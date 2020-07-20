@@ -57,5 +57,14 @@ $(document).ready(function(){
     $(this).find(".feature-block_title ").toggleClass("title-toggled");
   });
 
+  $(".point").hover(function(){
+      $(this).toggleClass("point-toggled");
+  });
+
+  $(".point").mouseout(function() {
+    if($(this).hasClass('point-toggled')) {
+      $(this).toggleClass("point-toggled");
+    };
+  });
 
 });

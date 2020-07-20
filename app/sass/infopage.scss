@@ -2,12 +2,18 @@
 	margin-right: 5%;
   margin-left: 5%;
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .head-row {
-	h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+  margin-top: 100px;
+
+	h3 {
 		@include headtitle;
 
 		span {

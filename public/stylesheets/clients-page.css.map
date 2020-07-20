@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,wCAAwC;;AAG5D,gBAAiB;EACf,UAAU,EAAE,KAAK;;AAGnB,eAAgB;EACd,WAAW,EAAE,KAAK",
+"sources": ["../../app/sass/clients-page.scss"],
+"names": [],
+"file": "clients-page.css"
+}

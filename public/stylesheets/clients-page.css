@@ -1,39 +1,26 @@
 /*
-Error: Undefined mixin 'headtitle'.
-        on line 17 of app/sass/infopage.scss, in `headtitle'
-        from line 17 of app/sass/infopage.scss
+Error: Undefined mixin 'back'.
+        on line 4 of app/sass/clients-page.scss, in `back'
+        from line 4 of app/sass/clients-page.scss
 
-12:   align-items: center;
-13:   margin-left: 2%;
-14:   margin-top: 100px;
-15: 
-16: 	h3 {
-17: 		@include headtitle;
-18: 
-19: 		span {
-20: 			color: $ladyRed;
-21: 		}
-22: 	}
+1: .clients {
+2:   height: 650px;
+3:   background-image: url(../../images/clients_background.png);
+4:   @include back;
+5: }
+6: 
+7: .features-header {
+8:   margin-top: 100px;
+9: }
 
 Backtrace:
-app/sass/infopage.scss:17:in `headtitle'
-app/sass/infopage.scss:17
+app/sass/clients-page.scss:4:in `back'
+app/sass/clients-page.scss:4
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `with_mixin'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:349:in `visit_mixin'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
@@ -84,4 +71,4 @@ app/sass/infopage.scss:17
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'headtitle'.\A         on line 17 of app/sass/infopage.scss, in `headtitle'\A         from line 17 of app/sass/infopage.scss\A \A 12:   align-items: center;\A 13:   margin-left: 2%;\A 14:   margin-top: 100px;\A 15: \A 16: 	h3 {\A 17: 		@include headtitle;\A 18: \A 19: 		span {\A 20: 			color: $ladyRed;\A 21: 		}\A 22: 	}"; }
+  content: "Error: Undefined mixin 'back'.\A         on line 4 of app/sass/clients-page.scss, in `back'\A         from line 4 of app/sass/clients-page.scss\A \A 1: .clients {\A 2:   height: 650px;\A 3:   background-image: url(../../images/clients_background.png);\A 4:   @include back;\A 5: }\A 6: \A 7: .features-header {\A 8:   margin-top: 100px;\A 9: }"; }

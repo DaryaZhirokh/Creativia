@@ -5,12 +5,19 @@
   font-style: normal;
 }
 
-.wrapper {
-  margin: 0;
-  padding: 0;
-  font-family: Raleway;
-  overflow-x: hidden !important;
-  width: 100%;
+@font-face{
+  font-family: 'Lato';
+  src: url(../../fonts/Lato.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+  font-family: 'Lato';
+  src: url(../../fonts/MgOpenModata.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 
 $narrowwidth: 21%;
@@ -34,7 +41,7 @@ $grayArrow: #a3a3a3;
   font-family: "Raleway";
   font-weight: 700;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: 50px;
   margin-right: 5%;
   margin-left: 5%;
@@ -48,4 +55,15 @@ $grayArrow: #a3a3a3;
   font-weight: 700;
   text-align: center;
   margin-bottom: 100px;
+}
+
+@mixin back {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
