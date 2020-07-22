@@ -86,5 +86,9 @@ $(document).ready(function(){
       $(this).find(".member_picture-box").toggleClass("member_picture-box-toggled");
     };
   });
-
+ // <!--SERVICES-PAGE -->
+  $(".services_list-item").hover(function(){
+    $(this).find(".services_list-picture").toggleClass("services_list-picture-toggled");
+    $(this).find(".services_list-picture-red").toggleClass("services_list-picture-red-toggled");
+  });
 });

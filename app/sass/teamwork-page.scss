@@ -8,9 +8,10 @@
 
 .teamwork_header, .skills_header {
   margin-top: 100px;
-    h3 {
-      @include headtitle;
-      margin-bottom: 45px;
+
+  h3 {
+    @include headtitle;
+    margin-bottom: 45px;
 
     span {
       color: $ladyRed;
@@ -108,8 +109,6 @@
   font-family: "Lato";
   text-align: center;
 }
-.info-line {
-}
 
 .skillscales {
   @include alignment;
@@ -129,8 +128,8 @@
     margin: auto;
   }
 }
+
 .circle-legend {
-  //position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   margin: auto;
   font-size: 40px;
@@ -143,15 +142,6 @@
   span {
     color: #0f0f0f;
   }
-}
-
-.ninety {
-}
-.eighty {
-}
-.seventy {
-}
-.ninetypercent {
 }
 
 .scale-circle {
@@ -170,7 +160,6 @@
   text-align: center;
   margin: 0 25px 25px 25px;
 }
-
 
 .scale-item_legend {
   font-size: 20px;
