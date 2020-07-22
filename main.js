@@ -67,4 +67,24 @@ $(document).ready(function(){
     };
   });
 
+// <!--TEAMWORK-PAGE -->
+/*  $(".teamwork_members").click(function(){
+   $(this).find(".member_picture-box").toggleClass("member_picture-box-toggled");
+  });
+  $(".teamwork_members").click(function(){
+   $(this).find(".member_picture-alterbox").toggleClass("member_picture-alterbox-toggled");
+  });*/
+
+  $(".member").click(function(){
+    $(this).find(".member_picture-box").toggleClass("member_picture-box-toggled");
+    $(this).find(".member_picture-alterbox").toggleClass("member_picture-alterbox-toggled");
+  });
+
+    $(".member").mouseout(function() {
+    if($(this).find(".member_picture-alterbox").hasClass('member_picture-alterbox-toggled')) {
+      $(this).find(".member_picture-alterbox-toggled").removeClass("member_picture-alterbox-toggled");
+      $(this).find(".member_picture-box").toggleClass("member_picture-box-toggled");
+    };
+  });
+
 });

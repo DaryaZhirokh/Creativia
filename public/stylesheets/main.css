@@ -968,7 +968,7 @@ header {
     margin-right: 20px;
     margin-top: 0; } }
 .clients {
-  height: 650px;
+  /*   height: 650px; */
   background-image: url(../../images/clients_background.png);
   background-size: cover;
   background-repeat: no-repeat; }
@@ -1073,7 +1073,8 @@ header {
 .clients_squares-row {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .square {
   width: 270px;
@@ -1126,5 +1127,176 @@ header {
 
 .clients_row {
   padding-top: 0; }
+
+.teamwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.teamwork_header, .skills_header {
+  margin-top: 100px; }
+  .teamwork_header h3, .skills_header h3 {
+    font-size: 30px;
+    color: #262626;
+    font-family: "Raleway";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 45px; }
+    .teamwork_header h3 span, .skills_header h3 span {
+      color: #ff0035; }
+  .teamwork_header p, .skills_header p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #505050;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px; }
+    .teamwork_header p span, .skills_header p span {
+      color: #ff0035; }
+
+.teamwork_members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
+  flex-wrap: wrap; }
+
+.member {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.member_picture-box {
+  display: flex; }
+
+.member_picture-box-toggled {
+  display: none; }
+
+.member_picture {
+  height: 240px;
+  width: 270px; }
+
+.member_picture-alterbox {
+  display: none;
+  background-color: #262626;
+  height: 240px;
+  width: 270px;
+  justify-content: center;
+  align-items: center; }
+
+.member_picture-alterbox-toggled {
+  display: flex; }
+
+.member-logo {
+  height: 14px;
+  width: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.member-container {
+  height: 41px;
+  width: 45px;
+  position: relative;
+  margin: 5px; }
+
+.member-hexagon {
+  height: 41px;
+  width: 45px;
+  position: absolute; }
+
+.member_header {
+  width: 270px;
+  height: 121px;
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  padding-top: 35px;
+  margin-bottom: 22px; }
+
+.member_name {
+  font-size: 20px;
+  color: #262626;
+  font-weight: 500;
+  font-family: "Raleway";
+  text-align: center; }
+
+.member_position {
+  font-size: 16px;
+  line-height: 22px;
+  color: #505050;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center; }
+
+.skillscales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px; }
+
+.scale-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .scale-item img {
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto; }
+
+.circle-legend {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 40px;
+  line-height: 95px;
+  color: #ff0036;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center; }
+  .circle-legend span {
+    color: #0f0f0f; }
+
+.scale-circle {
+  position: relative;
+  height: 145px;
+  width: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.scale-item_legend-small {
+  font-size: 16px;
+  line-height: 18px;
+  color: #505050;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  margin: 0 25px 25px 25px; }
+
+.scale-item_legend {
+  font-size: 20px;
+  color: #262626;
+  font-weight: 500;
+  font-family: "Raleway";
+  text-align: center;
+  margin: 25px; }
 
 /*# sourceMappingURL=main.css.map */

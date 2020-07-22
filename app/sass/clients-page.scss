@@ -1,5 +1,5 @@
 .clients {
-  height: 650px;
+/*   height: 650px; */
   background-image: url(../../images/clients_background.png);
   @include back;
 }
@@ -101,6 +101,7 @@
 
 .clients_squares-row {
   @include alignment;
+  flex-wrap: wrap;
 }
 
 .square {
