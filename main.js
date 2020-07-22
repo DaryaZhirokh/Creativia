@@ -91,4 +91,13 @@ $(document).ready(function(){
     $(this).find(".services_list-picture").toggleClass("services_list-picture-toggled");
     $(this).find(".services_list-picture-red").toggleClass("services_list-picture-red-toggled");
   });
+
+//<!--SALE-PAGE -->
+  $(".reseller-item").hover(function(){
+    $(this).find(".reseller_item-price").toggleClass("reseller_item-price-toggled");
+    $(this).find(".reseller-button").toggleClass("reseller-button-toggled");
+  });
+
+
+
 });

@@ -1,0 +1,101 @@
+.selling {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.selling_header {
+  padding-top: 100px;
+
+  h3 {
+    @include headtitle;
+    margin-bottom: 45px;
+
+    span {
+      color: $ladyRed;
+    }
+  }
+
+  p {
+    @include headtext;
+
+    span {
+      color: $ladyRed;
+    }
+  }
+}
+.reseller_list {
+  margin-bottom: 100px;
+  @include alignment;
+  flex-wrap: wrap;
+}
+
+.reseller-item {
+  width: 270px;
+  border: 1px solid #f2f2f2;
+  margin: 15px;
+}
+.reseller_item-title {
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Raleway";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: #262626;
+  margin: 0;
+}
+.reseller_item-price {
+  font-size: 50px;
+  color: #262626;
+  font-weight: 900;
+  font-family: "Lato";
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+
+  span {
+    font-size: 16px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+  }
+}
+
+.reseller_item-price-toggled {
+  background-color: #ff0036;
+  color: #ffffff;
+  span {
+    color: #ffffff;
+  }
+}
+
+.reseller_item-text {
+  font-size: 16px;
+  color: #262626;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+}
+.reseller-button {
+  width: 228px;
+  height: 38px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Raleway";
+  text-align: center;
+  margin: 20px;
+  background-color: #262626;
+}
+
+.reseller-button-toggled {
+  background-color: #ff0036;
+  border: none;
+}
