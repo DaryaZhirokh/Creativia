@@ -98,6 +98,11 @@ $(document).ready(function(){
     $(this).find(".reseller-button").toggleClass("reseller-button-toggled");
   });
 
+//<!--BLOG-PAGE -->
 
+    $(".follow-item").hover(function(){
+      $(this).find(".follow_hexagon").toggleClass("follow_hexagon-toggled");
+      $(this).find(".follow_hexagon-covered").toggleClass("follow_hexagon-covered-toggled");
+  });
 
 });

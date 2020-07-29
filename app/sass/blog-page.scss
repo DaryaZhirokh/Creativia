@@ -37,7 +37,7 @@
   display: flex;
   align-items: unset;
   margin: 25px;
-  height: 200px;
+  flex-wrap: wrap;
 }
 
 .blog_item-picture {
@@ -94,7 +94,7 @@
 .blog_item-button {
   width: 120px;
   height: 40px;
-  background-color: #262626;;
+  background-color: #262626;
   font-size: 16px;
   color: #ffffff;
   font-weight: 400;
@@ -104,6 +104,9 @@
 
   &:focus {
     outline: none;
+  }
+  &:hover {
+    background-color: #ff0036;
   }
 }
 .blog_item-arrow-button {
@@ -123,4 +126,10 @@
 .blog_item-arrow {
   width: 21px;
   height: 14px;
+}
+
+@media (max-width: 1124px) {
+  .blog_item-content {
+    flex-wrap: wrap;
+  }
 }

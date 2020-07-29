@@ -1580,7 +1580,7 @@ header {
   display: flex;
   align-items: unset;
   margin: 25px;
-  height: 200px; }
+  flex-wrap: wrap; }
 
 .blog_item-picture {
   width: 370px;
@@ -1646,6 +1646,8 @@ header {
   border: none; }
   .blog_item-button:focus {
     outline: none; }
+  .blog_item-button:hover {
+    background-color: #ff0036; }
 
 .blog_item-arrow-button {
   width: 43px;
@@ -1660,5 +1662,100 @@ header {
 .blog_item-arrow {
   width: 21px;
   height: 14px; }
+
+@media (max-width: 1124px) {
+  .blog_item-content {
+    flex-wrap: wrap; } }
+.follow-page {
+  background-image: url("../../images/redlady.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.follow_header h3 {
+  font-size: 30px;
+  color: #262626;
+  font-family: "Raleway";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 100px; }
+  .follow_header h3 span {
+    color: #ff0035; }
+
+.follow_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.follow_hexagon {
+  width: 75px;
+  height: 68px;
+  position: relative;
+  margin: 0 25px 40px 25px; }
+
+.follow_hexagon-toggled {
+  display: none; }
+
+.follow_picture-black {
+  width: 75px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.follow_picture-red {
+  width: 75px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.follow_hexagon-covered {
+  width: 75px;
+  height: 68px;
+  position: relative;
+  margin: 0 25px 40px 25px;
+  display: none; }
+
+.follow_hexagon-covered-toggled {
+  display: flex; }
+
+.follow_innerpicture-red {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.follow_picture-white {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.follow_text {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 92px; }
 
 /*# sourceMappingURL=main.css.map */

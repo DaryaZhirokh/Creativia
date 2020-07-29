@@ -1,0 +1,84 @@
+.follow-page {
+  background-image: url("../../images/redlady.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.follow_header {
+
+  h3 {
+    @include headtitle;
+    padding-top: 100px;
+
+    span {
+      color: $ladyRed;
+    }
+  }
+}
+
+.follow_list {
+  @include alignment;
+  flex-wrap: wrap;
+}
+
+.follow-item {
+}
+.follow_hexagon {
+  width: 75px;
+  height: 68px;
+  position: relative;
+  margin: 0 25px 40px 25px;
+}
+
+.follow_hexagon-toggled{
+  display: none;
+}
+
+.follow_picture-black {
+  width: 75px;
+  height: 68px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+.follow_picture-red {
+  width: 75px;
+  height: 68px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+.follow_hexagon-covered {
+  width: 75px;
+  height: 68px;
+  position: relative;
+  margin: 0 25px 40px 25px;
+  display: none;
+}
+
+.follow_hexagon-covered-toggled {
+  display: flex;
+}
+.follow_innerpicture-red {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+
+.follow_picture-white {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+.follow_text {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 92px;
+  }
