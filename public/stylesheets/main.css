@@ -1571,10 +1571,28 @@ header {
     .blog_header p span {
       color: #ff0035; }
 
+.blog_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.blog_item {
+  display: flex;
+  align-items: unset;
+  margin: 25px;
+  height: 200px; }
+
 .blog_item-picture {
   width: 370px;
   height: 200px;
   margin-right: 30px; }
+
+.blog_item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  max-width: 570px;
+  justify-content: flex-start; }
 
 .blog_item-title {
   font-size: 20px;
@@ -1582,13 +1600,26 @@ header {
   color: #2e2e2e;
   font-weight: 600;
   font-family: "Raleway";
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 20px; }
+
+.blog_item-statistic {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.statistic-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11px; }
 
 .statistic_text {
   font-size: 12px;
   color: #a2a2a2;
   font-weight: 400;
-  font-family: "Lato"; }
+  font-family: "Lato";
+  margin: 0; }
 
 .statistic-picture {
   width: 13px;
@@ -1600,7 +1631,8 @@ header {
   color: #505050;
   font-weight: 400;
   font-family: "Lato";
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 15px; }
 
 .blog_item-button {
   width: 120px;
@@ -1620,7 +1652,8 @@ header {
   height: 43px;
   border-radius: 21px;
   background-color: #f2f2f2;
-  border: none; }
+  border: none;
+  margin-bottom: 85px; }
   .blog_item-arrow-button:focus {
     outline: none; }
 
