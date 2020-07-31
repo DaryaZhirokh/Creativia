@@ -16,97 +16,47 @@ header {
 	display: flex;
 	justify-content: center;
   align-items: center;
+}
 
-  @media (max-width: 1024px) {
-		margin-left: 200px;
+
+.logo_octagon {
+  position: relative;
+  background-image: url("../../images/header_octagon.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  height: 108px;
+  min-width: 260px;
+  margin-left: 116px;
+}
+
+.logo-text {
+  font-size: 30px;
+  color: $white;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 36px; left: 0; bottom: 0; right: 0;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
   }
-
-  @media (max-width: 760px) {
-		margin-left: 5%;
-		margin-right: 5%;
-  }
-}
-
-.logo {
-	min-width: 250px;
-	height: 40px;
-	background-color: $darkBlack;
-	border-left: 3px solid $ladyRed;
-	border-right: 3px solid $ladyRed;
-	margin-left:5%;
-	position: relative;
-}
-.trapezium {
-    width: 250px;
-    position: relative;
-    border-width: 60px 65px 0;
-    border-style: solid;
-    border-color: $darkBlack transparent;
-    margin-left:5%;
-    position: absolute;
-    top: 40px;
-    right: -3px;
-
-    @media (max-width: 1024px) {
-	    position: absolute;
-			left: -5%;
-    }
-}
-
-.trapezium:before {
-    content: &quot;
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: -85px;
-    left: -18px;
-    border-width: 0 45px 35px;
-    border-style: solid;
-    border-color: transparent transparent $ladyRed;
 }
 
 .upperMenuNav {
 	display: flex;
-	width: 100%;
 	min-height: 70px;
-	padding: 0;
+  height: 70px;
 	background-color: $lightblack;
-
-		@media (max-width: 1024px) {
-			display: block;
-			background-color: transparent;
-		}
+  justify-content: space-around;
 }
 
 .upperMenu {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
 	display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  margin-right: 5%;
-  margin-left:5%;
-
-
-  	@media (max-width: 1330px) {
-  		justify-content: space-evenly;
-  		margin-left: 1%;
-  	}
-
-  	@media (max-width: 1024px) {
-  		/* display: none; */
-  		display: block;
-  		margin-top: 175px;
-  		padding-left: 4%;
-  		position: absolute;
-  	}
-
-  	@media (max-width: 700px) {
-  		position: unset;
-  	}
+  margin: 0;
+  padding: 0;
 }
 
 .hamburger {
@@ -132,33 +82,14 @@ header {
 	}
 }
 
-
 .upper-menu-item {
-	margin-right: 40px;
-  margin-left: 40px;
+/*   margin-right: 40px;
+  margin-left: 40px; */
   height: 70px;
   display: flex;
   align-items: center;
-  width: 30px;
   flex-wrap: nowrap;
   justify-content: center;
-
-  	@media (max-width: 1330px) {
-			width: auto;
-			margin: 0;
-	}
-
-	@media (min-width: 1124px) {
-		margin-right: 10px;
-  	margin-left: 10px;
-  	width: auto;
-	}
-
-	@media (max-width: 1024px) {
-			display: block;
-			width: 100px;
-			height: 35px;
-		}
 
   &:hover {
   	border-top: 3px solid $ladyRed;
@@ -168,8 +99,6 @@ header {
 
 .menu-ref {
 	font-size: 18px;
-	line-height: 25px;
-	letter-spacing: 0px;
 	color: $grayText;
 	font-family: "Raleway";
 	white-space: nowrap;
@@ -178,26 +107,6 @@ header {
 	&:hover {
 		text-decoration: none;
 		color: $white;
-	}
-
-	@media (max-width: 1024px) {
-
-	}
-}
-
-.logo-text {
-	font-size: 30px;
-	color: $white;
-	font-family: "Raleway";
-	font-weight: 400;
-	text-align: center;
-	position: absolute;
-	top: 40px;
-  left: 60px;
-
-	&:hover {
-		color: $white;
-		text-decoration: none;
 	}
 }
 
